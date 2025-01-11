@@ -66,6 +66,8 @@ class TextStatistics {
                 if (word.length() > longestWord.length()) {
                     longestWord = word;
                 }
+                else if  (word.length() == longestWord.length()) {
+                    longestWord = word+ longestWord;  }
             }
         }
     }

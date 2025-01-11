@@ -73,5 +73,5 @@ public class TestCase {
         assertEquals(3, stats.getWordCount(), "Antalet ord ska vara 3");
         assertEquals("världen", stats.getLongestWord(), "Det längsta ordet ska vara 'världen'");
     }
-}
+
 
